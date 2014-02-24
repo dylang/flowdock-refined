@@ -9,20 +9,10 @@ Use `grunt readme` to regenerate.
 
 > Flowdock desktop app custom UI
 
-[![flowdock-refined](https://nodei.co/npm/flowdock-refined.png?downloads=true "flowdock-refined")](https://nodei.co/npm/flowdock-refined)
-
 
 ### Screenshots
 
-| ![With Flowdock Refined](https://f.cloud.github.com/assets/51505/2242530/f6928050-9d05-11e3-860a-0ad2ca3614d5.png "With Flowdock Refined") |
-|:-------------:|
-| With Flowdock Refined |
-
-| ![Without Flowdock Refined](https://f.cloud.github.com/assets/51505/2242531/f82986a2-9d05-11e3-8a21-7068e339cae6.png "Without Flowdock Refined") |
-|:-------------:|
-| Without Flowdock Refined |
-
-
+Coming soon!
 
 
 
