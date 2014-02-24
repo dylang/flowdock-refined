@@ -155,10 +155,14 @@ better align avatar
 Cleaner input area
 **/
 form {
-    padding: 8px 0 0 4px !important;
+    padding: 8px 0 8px 4px !important;
     background: #f9f9f9 !important;
     border-top: none !important;
     line-height: 13px;
+}
+
+#chat form {
+    bottom: -7px !important;
 }
 
 form li {

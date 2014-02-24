@@ -1,7 +1,7 @@
 {
   "name": "flowdock-refined",
   "description": "Flowdock desktop app custom UI",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Dylan Greene",
     "email": "dylang@gmail.com"
