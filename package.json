@@ -1,7 +1,7 @@
 {
   "name": "flowdock-refined",
   "description": "Flowdock desktop app custom UI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Dylan Greene",
     "email": "dylang@gmail.com"
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "node lib/install-userstyle"
+    "start": "node lib/install-userstyle",
+    "postinstall": "node lib/install-userstyle"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.8.0",
@@ -38,5 +39,6 @@
     "stylish",
     "improved"
   ],
-  "dependencies": {}
+  "dependencies": {},
+    preferGlobal: true
 }
