@@ -41,3 +41,7 @@ That's all you need. If you already have custom styling for Flowdock it will bac
 I'm limited by what I can modify because we can't add Javascript to the page
 with the desktop application. Please vote [to enable JavaScript plugins](http://flowdock.uservoice.com/forums/36827-general/suggestions/5519689-userscript-or-plugin-capability-in-desktop-client)
 so we can make a lot more changes.
+
+## Disclaimer
+
+This is not a produce of Flowdock. 
