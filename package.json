@@ -40,5 +40,5 @@
     "improved"
   ],
   "dependencies": {},
-    preferGlobal: true
+  "preferGlobal": true
 }
