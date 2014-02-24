@@ -1,0 +1,38 @@
+{
+  "name": "flowdock-refined",
+  "description": "Flowdock desktop app custom UI",
+  "version": "0.0.1",
+  "author": {
+    "name": "Dylan Greene",
+    "email": "dylang@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dylang/grunt-notify/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.3",
+    "grunt-templates-dylang": "~0.1.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "flowdock",
+    "stylish",
+    "improved"
+  ],
+  "dependencies": {
+  }
+}

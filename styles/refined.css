@@ -1,0 +1,342 @@
+/*
+one font
+*/
+html, button, input, select, textarea {
+    font-family: Helvetica, "Segoe UI", Arial, sans-serif !important;
+}
+
+/**
+Clean up flow
+Make repo name more obvious
+**/
+.item span {
+    color: #d35400 !important;
+}
+
+.item.main-link span {
+    color: #777 !important;
+    font-weight: normal !important;
+    font-size: smaller !important;
+}
+
+.inbox-message.mail .author-name,
+.inbox-message.mail .timestamp-link {
+    font-size: smaller;
+}
+
+.inbox-message.vcs .item:nth-child(1),
+.inbox-message.vcs .author-name,
+.inbox-message.vcs .author-info,
+.inbox-message.vcs .commit-sha,
+.inbox-message.vcs .timestamp-link {
+    display: none !important;
+}
+
+ul.items li.item::after {
+    content: '' !important;
+}
+
+.commit-list li.commit {
+    white-space: normal !important;
+}
+
+.item.main-link a::before {
+    font-size: smaller !important;
+    content: attr(href) !important;
+    color: rgb(119, 119, 119) !important;
+}
+
+.item.main-link .main-link-text {
+    display: none !important;
+}
+
+.commit-ellipsis {
+    display: none !important;
+}
+
+#inbox li[class*=message] .commit-message-furthermore {
+    padding: 0 !important;
+    font-size: 11px !important;
+}
+
+/*
+flowdock ends up turning every "closes #13" into
+a "#13" tag which is pointless, so hide them
+*/
+.inbox-message .tags {
+    display: none !important;
+}
+
+/*
+show full commit messages
+*/
+.compact #inbox li[class*=message] .excerpt {
+    max-height: none !important;
+}
+
+.commit-changes {
+    display: block !important;
+    font-size: 11px !important;
+}
+
+/*
+threaded messages
+mouseover effect
+*/
+.single-view-link.green:hover {
+    background-color: rgba(44, 62, 80, 0.2) !important;
+}
+
+.single-view-link.red:hover {
+    background-color: rgba(44, 62, 80, 0.2) !important;
+}
+
+.single-view-link.blue:hover {
+    background-color: rgba(44, 62, 80, 0.2) !important;
+}
+
+.single-view-link.yellow:hover {
+    background-color: rgba(241, 196, 15, 0.2) !important;
+}
+
+.single-view-link.purple:hover {
+    background-color: rgba(155, 89, 182, 0.2) !important;
+}
+
+.single-view-link.orange:hover {
+    background-color: rgba(243, 156, 18, 0.2) !important;
+}
+
+.single-view-link.teal:hover {
+    background-color: rgba(22, 160, 133, 0.2) !important;
+}
+
+/**
+avatar hacks
+**/
+.avatar[title="jenkins"],
+.avatar[title="Jenkins DEV VA"] {
+    background-image: url(http://www.ntobjectives.com/wp-content/uploads/2013/07/jenkins.png) !important;
+}
+
+.avatar[title="john-crimmins"] {
+    background-image: url(http://opower.com/uploads/employee/photo_2/663/John_Crimmins_2.jpg) !important;
+}
+
+/**
+Round avatars
+**/
+.compact #inbox li[class*=message] .avatar,
+.compact #inbox li[class*=message] .user-menu-avatar,
+.compact #inbox li[class*=message] .single-message-avatar,
+.inbox-comment-message .avatar,
+.comment-form .avatar,
+.single-message-avatar,
+.me .avatar {
+    height: 4em !important;
+    width: 4em !important;
+    border-radius: 4em !important;
+    margin: 0.154em !important;
+    margin-right: 1.308em !important;
+}
+
+#users .user-avatar {
+    border-radius: 4px !important;
+}
+
+/*
+better align avatar
+*/
+.inbox-comment-message .avatar {
+    top: -9px !important;
+}
+
+/**
+Cleaner input area
+**/
+form {
+    padding: 8px 0 0 4px !important;
+    background: #f9f9f9 !important;
+    border-top: none !important;
+    line-height: 13px;
+}
+
+form li {
+    margin: 0 !important;
+}
+
+.textarea textarea {
+    box-shadow: none !important;
+    border: 2px solid #caccce !important;
+    border-radius: 4px !important;
+}
+
+input[type=text]:focus,
+textarea:focus {
+    border: 2px solid #4e6d8d !important;
+}
+
+.expanding-input {
+    transition: all 0.30s ease-in-out !important;
+    margin-bottom: 10px !important;
+}
+
+.upload.left {
+    float: right !important;
+}
+
+#chat form li button,
+#chat form li input {
+    line-height: 1px !important;
+    height: 30px !important;
+}
+
+/**
+Separation between time gaps
+**/
+.chat-message-list {
+    background: #f9f9f9 !important;
+}
+
+.time-separator {
+    margin-top: 20px !important;
+    border-top: 0 !important;
+}
+
+/**
+user list at top of ui
+**/
+#users .user-avatar {
+    cursor: pointer !important;
+}
+
+/**
+space between users
+**/
+#chat li[class*='message'] {
+    padding-top: 10px !important;
+}
+
+#chat li[class*='message'].monologue {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+/*
+don't cut off message text
+*/
+p.excerpt {
+    color: #888 !important;
+    max-height: 6em !important;
+    white-space: normal !important;
+    font-size: 11px !important;
+}
+
+p.excerpt img {
+    display: block;
+}
+
+/**
+edited
+**/
+time {
+    font-size: smaller !important;
+}
+
+/**
+me
+**/
+.me {
+    background-color: rgba(52, 152, 219, 0.1) !important;
+}
+
+.me .message-author {
+    color: rgba(52, 152, 219, 1.0) !important;
+}
+
+/*
+single-view-content
+*/
+.single-view-content .timestamp {
+    visibility: hidden !important;
+}
+
+.single-view-content .timestamp:hover {
+    visibility: visible !important;
+}
+
+.single-view-content a {
+    background: transparent !important;
+}
+
+.single-view-content li {
+    /* overflow: hidden !important; */
+}
+
+/* ---- */
+
+.chat-toolbar,
+.inbox-toolbar {
+    padding: 4px !important;
+    height: 50px !important;
+}
+
+.chat-message-list,
+.inbox-message-list {
+    top: 50px !important;
+}
+
+/* chat window */
+
+/* inbox */
+
+#avatar-list .user {
+    margin-bottom: 0 !important;
+    margin-right: 3px !important;
+}
+
+.inbox-message-list .avatar {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 5px !important;
+}
+
+.inbox-message-list .avatar .type-icon {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 8px;
+}
+
+.inbox-message-list .inbox-message {
+    padding: 6px 10px 6px 5px !important;
+}
+
+.inbox-message-list .inbox-message .title {
+    font-size: 12px !important;
+}
+
+.inbox-message-list .inbox-message .meta {
+    font-size: 12px !important;
+}
+
+.inbox-message-list .inbox-message .items {
+    font-size: 12px !important;
+}
+
+.inbox-message-list .inbox-message .message-actions {
+    position: absolute !important;
+    top: 10px !important;
+    right: 5px !important;
+    z-index: 1000 !important;
+}
+
+/*
+larger emojie
+*/
+span.emojie,
+img.emojie {
+    line-height: 45px;
+    font-size: 40px;
+    margin-top: 0;
+    vertical-align: 0;
+}
