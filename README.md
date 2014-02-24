@@ -73,7 +73,7 @@ so we can make a lot more changes.
 
 ### Disclaimer
 
-This is not a produce of Flowdock.
+This is not a product of Flowdock.
 
 
 ### About the Author
