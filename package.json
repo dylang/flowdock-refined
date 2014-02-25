@@ -1,7 +1,7 @@
 {
   "name": "flowdock-refined",
   "description": "Flowdock desktop app custom UI",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Dylan Greene",
     "email": "dylang@gmail.com"
@@ -39,6 +39,8 @@
     "stylish",
     "improved"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "cp": "^0.1.1"
+  },
   "preferGlobal": true
 }

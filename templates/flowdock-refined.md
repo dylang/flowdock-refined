@@ -33,6 +33,13 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Round avatars, because _why not_.
 * Provides an avatar for Jenkins.
 
+## Make your own changes
+
+You can make your own _additional_ changes by modifying `~/Library/Application Support/Flowdock/custom.css`.
+`flowdock-refined` will create this file for you but will never change it.
+
+You can also make pull requests back to this repo.
+
 ## Limitations
 
 The Flowdock desktop app currently only allows custom CSS, not custom JavaScript.
