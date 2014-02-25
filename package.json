@@ -22,8 +22,8 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "node lib/install-userstyle",
-    "postinstall": "node lib/install-userstyle"
+    "start": "node lib/install",
+    "postinstall": "node lib/install"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.8.0",

@@ -1,6 +1,6 @@
 ## Screenshots
 
-{%= screenshot('With Flowdock Refined', 'https://f.cloud.github.com/assets/51505/2242530/f6928050-9d05-11e3-860a-0ad2ca3614d5.png') %}
+{%= screenshot('With Flowdock Refined', 'https://f.cloud.github.com/assets/51505/2257821/aba7f9c4-9e1f-11e3-9d1a-d3afb29ed8e1.png') %}
 
-{%= screenshot('Without Flowdock Refined', 'https://f.cloud.github.com/assets/51505/2242531/f82986a2-9d05-11e3-8a21-7068e339cae6.png') %}
 
+{%= screenshot('Without Flowdock Refined', 'https://f.cloud.github.com/assets/51505/2257822/ad0ed116-9e1f-11e3-80da-863667085444.png') %}

@@ -1,0 +1,10 @@
+/*
+By hosting this on github you will automatically recieve updates.
+*/
+@import "https://rawgithub.com/dylang/flowdock-refined/master/styles/refined.css";
+
+/*
+You can put your own changes in custom.css.
+We will never overwrite that file.
+*/
+@import "custom.css";

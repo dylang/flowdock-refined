@@ -9,43 +9,24 @@ Use `grunt readme` to regenerate.
 
 > Flowdock desktop app custom UI
 
+[![flowdock-refined](https://nodei.co/npm/flowdock-refined.png?downloads=true "flowdock-refined")](https://nodei.co/npm/flowdock-refined)
+
 
 ### Screenshots
 
-Coming soon!
+| ![With Flowdock Refined](https://f.cloud.github.com/assets/51505/2257821/aba7f9c4-9e1f-11e3-9d1a-d3afb29ed8e1.png "With Flowdock Refined") |
+|:-------------:|
+| With Flowdock Refined |
+
+
+| ![Without Flowdock Refined](https://f.cloud.github.com/assets/51505/2257822/ad0ed116-9e1f-11e3-80da-863667085444.png "Without Flowdock Refined") |
+|:-------------:|
+| Without Flowdock Refined |
 
 
 
 
-A refined theme for the Flowdock desktop client.
-
-### Chat Improvements
-
-* Highlights what you wrote with a blue background.
-* Larging padding between "breaks in time".
-* Cleaner textarea for typing.
-* Smaller Send and Upload buttons, both moved to the right.
-
-### Flow Improvements
-
-* Unifies a few different text styles and fonts used by the flow to one style.
-* Easy to see see Github repo names.
-* Removes redundant usernames.
-* Removes unnecessary commit hashes.
-* Removes unneeded times.
-* Removes unnecessary #-tags caused by PR (closes #37 makes Flowdock create a #37 tag).
-* For commits, quickly see files modified/added/removed.
-* Dispalys real urls instead of the word "Original".
-
-### Bonus
-* Larger emoji, especially :shipit:.
-* Round avatars, because why not.
-* Provides an avatar for Jenkins.
-
-### Inspiration
-
-Inspired by my Opower co-worker [Nowell Strite](https://github.com/nowells) and
-Shopify's [Flowdock Styles](https://github.com/Shopify/flowdock_styles).
+Flowdock Refined makes subtle tweaks to the [Flowdock Desktop client](https://www.flowdock.com/download) to make it easier to see important information.
 
 ### Installation
 
@@ -53,17 +34,47 @@ Shopify's [Flowdock Styles](https://github.com/Shopify/flowdock_styles).
 $ npm -g install flowdock-refined
 ```
 
-That's all you need. If you already have custom styling for Flowdock it will back up your changes first.
+This will automatically install it to the Flowdock desktop client. If you already have custom styling for Flowdock it will back up your changes first.
 
-### Future
+### Chat Improvements
 
-I'm limited by what I can modify because we can't add Javascript to the page
-with the desktop application. Please vote [to enable JavaScript plugins](http://flowdock.uservoice.com/forums/36827-general/suggestions/5519689-userscript-or-plugin-capability-in-desktop-client)
-so we can make a lot more changes.
+* __Highlights what you wrote with a blue background.__
+* Larger padding between "breaks in time".
+* Cleaner text area for typing.
+* More clear when you are editing previous messages.
+* Smaller Send and Upload buttons, both moved to the right.
+
+### Flow Improvements
+
+* Unifies a few different text styles and fonts used by the flow to one style.
+* __Easy to see see Github repo names.__
+* Hides redundant usernames.
+* Hides unnecessary commit hashes.
+* Hides unneeded times.
+* Hides unnecessary #-tags caused by PR (closes #37 makes Flowdock create a #37 tag).
+* For commits, displays inline files modified/added/removed.
+* Includes full commit messages and comments instead of hiding them.
+* Displays real urls instead of the word "Original".
+
+### Bonus
+* Larger emoji, especially :shipit:.
+* Round avatars, because _why not_.
+* Provides an avatar for Jenkins.
+
+### Limitations
+
+The Flowdock desktop app currently only allows custom CSS, not custom JavaScript.
+**Please vote to [enable custom JavaScript](http://flowdock.uservoice.com/forums/36827-general/suggestions/5519689-userscript-or-plugin-capability-in-desktop-client)
+so we can make a lot more improvements.**
+
+### Inspiration
+
+Inspired by my Opower co-worker [Nowell Strite](https://github.com/nowells) and
+Shopify's [Flowdock Styles](https://github.com/Shopify/flowdock_styles).
 
 ### Disclaimer
 
-This is not a product of Flowdock.
+This is **not** a product of [Flowdock](http://www.flowdock.com).
 
 
 ### About the Author
@@ -103,7 +114,7 @@ Released under the [MIT license](https://tldrlegal.com/license/mit-license).
 Screenshots are [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike).
 
 ***
-_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Monday, February 24, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
+_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Tuesday, February 25, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
 
 
 <!---

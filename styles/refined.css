@@ -70,7 +70,7 @@ a "#13" tag which is pointless, so hide them
 /*
 show full commit messages
 */
-.compact #inbox li[class*=message] .excerpt {
+#inbox li[class*=message] .excerpt {
     max-height: none !important;
 }
 
@@ -126,9 +126,9 @@ avatar hacks
 /**
 Round avatars
 **/
-.compact #inbox li[class*=message] .avatar,
-.compact #inbox li[class*=message] .user-menu-avatar,
-.compact #inbox li[class*=message] .single-message-avatar,
+#inbox li[class*=message] .avatar,
+#inbox li[class*=message] .user-menu-avatar,
+#inbox li[class*=message] .single-message-avatar,
 .inbox-comment-message .avatar,
 .comment-form .avatar,
 .single-message-avatar,
@@ -140,9 +140,25 @@ Round avatars
     margin-right: 1.308em !important;
 }
 
+/*
+avatars at the top of the page that show who's online
+*/
 #users .user-avatar {
     border-radius: 4px !important;
 }
+
+/*
+active vs idle
+*/
+#avatar-list .user.idle,
+#avatar-list .user.offline
+{
+    -webkit-filter: grayscale(100%)  !important;
+}
+#avatar-list .user.active {
+    -webkit-filter: none !important;
+}
+
 
 /*
 better align avatar
@@ -150,6 +166,7 @@ better align avatar
 .inbox-comment-message .avatar {
     top: -9px !important;
 }
+
 
 /**
 Cleaner input area
@@ -344,3 +361,11 @@ img.emojie {
     margin-top: 0;
     vertical-align: 0;
 }
+
+/*
+blur text out for screenshots
+div, span, .item span, a, a::before, p, li, .item.main-link a::before,  .excerpt, .inbox-message .excerpt {
+color: transparent !important;
+text-shadow: 0 0 5px rgba(0,0,0,0.8) !important;
+}
+*/
