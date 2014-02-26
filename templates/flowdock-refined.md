@@ -15,6 +15,7 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Cleaner text area for typing.
 * More clear when you are editing previous messages.
 * Smaller Send and Upload buttons, both moved to the right.
+* Black and white avatars when people are away.
 
 ## Flow Improvements
 
@@ -32,6 +33,7 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Larger emoji, especially :shipit:.
 * Round avatars, because _why not_.
 * Provides an avatar for Jenkins.
+* Easier to read tabs.
 
 ## Make your own changes
 

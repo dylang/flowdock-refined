@@ -1,9 +1,14 @@
 /*
 one font
 */
-html, button, input, select, textarea {
-    font-family: Helvetica, "Segoe UI", Arial, sans-serif !important;
+html  {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 }
+
+button, input, select, textarea {
+    font-family: Lucida Grande,sans-serif !important;
+}
+
 
 /**
 Clean up flow
@@ -147,6 +152,7 @@ avatars at the top of the page that show who's online
     border-radius: 4px !important;
 }
 
+
 /*
 active vs idle
 */
@@ -159,9 +165,32 @@ active vs idle
     -webkit-filter: none !important;
 }
 
+#avatar-list .user.active .user-avatar {
+    box-shadow: 0px 0px 4px 1px #0892D0 !important;
+}
+
+
 
 /*
-better align avatar
+avatar toolbar at the top
+*/
+.chat-toolbar ul.userbar.online {
+    left: 50px !important;
+    right: 50px !important;
+}
+
+
+/*
+search box
+*/
+.inbox-toolbar input[type="text"].tokenist-placeholder::before,
+.inbox-toolbar .tokenist.tokenist-placeholder::before {
+    top: 5px !important;
+}
+
+
+/*
+better align avatar on left
 */
 .inbox-comment-message .avatar {
     top: -9px !important;
@@ -231,6 +260,12 @@ user list at top of ui
     cursor: pointer !important;
 }
 
+#users #avatar-list .user {
+    margin-top: 2px !important;
+    margin-right: 6px !important;
+}
+
+
 /**
 space between users
 **/
@@ -294,6 +329,79 @@ single-view-content
     /* overflow: hidden !important; */
 }
 
+
+/*
+Flow Tabs
+*/
+#tab-bar,
+#user-menu-toggle {
+    background-color: #34495e !important;
+}
+
+#tab-list {
+    width: 600% !important;
+}
+
+
+.tab-link,
+.tab-link:visited {
+    color: white !important;
+    border-left: 1px solid #090909 !important;
+    padding-right: 18px !important;
+}
+.current .tab-link {
+    background-color: #090909 !important;
+}
+#tab-list .tab-name {
+    float: none !important;
+    padding-left: 4px !important;
+    z-index: 1000 !important;
+}
+
+.tab  {
+    min-width: 5px !important;
+    font-size: 11px !important
+    font-family: Lucida Grande,sans-serif !important;
+}
+.tab-fade-wrapper {
+    padding-right: 0 !important;
+    overflow: auto;
+}
+
+.tab-fade-wrapper::after {
+    width: 0 !important;
+}
+#tab-list .tab-link {
+    padding-left: 0 !important;
+}
+.tab-close {
+    right: 2px !important;
+    top: 8px !important;
+    border-radius: 10px !important;
+}
+.activity-indicator-chat {
+    background-color: rgba(52, 152, 219, 1.0) !important;
+}
+
+.current .tab-caret-wrapper::before {
+    display: none !important;
+}
+
+.activity-indicator-chat,
+.activity-indicator-mentions {
+    top: 0;
+    left: 50%;
+    box-shadow: 0px 0px 1px 5px #0892D0 !important;
+    z-index: 1;
+}
+
+#flow-dropdown-item {
+    background-color: #34495e !important;
+}
+#more {
+    height: 18px !important;
+}
+
 /* ---- */
 
 .chat-toolbar,
@@ -315,6 +423,7 @@ single-view-content
     margin-bottom: 0 !important;
     margin-right: 3px !important;
 }
+
 
 .inbox-message-list .avatar {
     width: 40px !important;

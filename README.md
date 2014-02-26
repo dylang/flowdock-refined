@@ -57,9 +57,11 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Displays real urls instead of the word "Original".
 
 ### Bonus
+* Easier read tabs.
 * Larger emoji, especially :shipit:.
 * Round avatars, because _why not_.
 * Provides an avatar for Jenkins.
+
 
 ### Make your own changes
 
