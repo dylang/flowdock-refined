@@ -14,11 +14,13 @@ Use `grunt readme` to regenerate.
 
 ### Screenshots
 
+### After
 | ![With Flowdock Refined](https://f.cloud.github.com/assets/51505/2257821/aba7f9c4-9e1f-11e3-9d1a-d3afb29ed8e1.png "With Flowdock Refined") |
 |:-------------:|
 | With Flowdock Refined |
 
 
+### Before
 | ![Without Flowdock Refined](https://f.cloud.github.com/assets/51505/2257822/ad0ed116-9e1f-11e3-80da-863667085444.png "Without Flowdock Refined") |
 |:-------------:|
 | Without Flowdock Refined |
@@ -43,6 +45,7 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Cleaner text area for typing.
 * More clear when you are editing previous messages.
 * Smaller Send and Upload buttons, both moved to the right.
+* Black and white avatars when people are away.
 
 ### Flow Improvements
 
@@ -57,11 +60,10 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Displays real urls instead of the word "Original".
 
 ### Bonus
-* Easier read tabs.
 * Larger emoji, especially :shipit:.
 * Round avatars, because _why not_.
 * Provides an avatar for Jenkins.
-
+* Easier to read tabs.
 
 ### Make your own changes
 
@@ -123,7 +125,7 @@ Released under the [MIT license](https://tldrlegal.com/license/mit-license).
 Screenshots are [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike).
 
 ***
-_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Tuesday, February 25, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
+_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Wednesday, February 26, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
 
 
 <!---
