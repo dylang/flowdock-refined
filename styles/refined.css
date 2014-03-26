@@ -33,7 +33,14 @@ Make repo name more obvious
 .inbox-message.vcs .author-name,
 .inbox-message.vcs .author-info,
 .inbox-message.vcs .commit-sha,
-.inbox-message.vcs .timestamp-link {
+.inbox-message.vcs .timestamp-link,
+
+.inbox-message.jira .item:nth-child(1),
+.inbox-message.jira .item:nth-child(2),
+.inbox-message.jira .author-name,
+.inbox-message.jira .author-info,
+.inbox-message.jira .commit-sha,
+.inbox-message.jira .timestamp-link {
     display: none !important;
 }
 
