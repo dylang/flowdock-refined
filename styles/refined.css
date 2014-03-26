@@ -332,7 +332,6 @@ single-view-content
 
 /*
 left side, reduce white space
-*/
 
 .compact #single>form {
     right: 0 !important;
@@ -342,16 +341,14 @@ left side, reduce white space
     padding-right: 0 !important;
 }
 
+
+
 /*
 Flow Tabs
 */
 #tab-bar,
 #user-menu-toggle {
     background-color: #34495e !important;
-}
-
-#tab-list {
-    width: 600% !important;
 }
 
 
@@ -437,7 +434,7 @@ li:first-child .tab-link {
 /* inbox */
 
 #avatar-list .user {
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
     margin-right: 3px !important;
 }
 
