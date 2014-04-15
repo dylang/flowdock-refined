@@ -59,6 +59,11 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Includes full commit messages and comments instead of hiding them.
 * Displays real urls instead of the word "Original".
 
+### Tab Improvements
+
+* Easier to see which tab is active
+* More modern tab style
+
 ### Bonus
 * Larger emoji, especially :shipit:.
 * Round avatars, because _why not_.
@@ -125,7 +130,7 @@ Released under the [MIT license](https://tldrlegal.com/license/mit-license).
 Screenshots are [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike).
 
 ***
-_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Wednesday, February 26, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
+_Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Tuesday, April 15, 2014._ [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/git/flowdock-refined/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Google Analytics](https://ga-beacon.appspot.com/UA-4820261-3/git/flowdock-refined)](https://github.com/igrigorik/ga-beacon)
 
 
 <!---

@@ -29,6 +29,11 @@ This will automatically install it to the Flowdock desktop client. If you alread
 * Includes full commit messages and comments instead of hiding them.
 * Displays real urls instead of the word "Original".
 
+## Tab Improvements
+
+* Easier to see which tab is active
+* More modern tab style
+
 ## Bonus
 * Larger emoji, especially :shipit:.
 * Round avatars, because _why not_.
